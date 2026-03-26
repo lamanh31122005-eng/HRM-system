@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App.tsx";
 import "./index.css";
 
+// Tất cả phải nằm trong một lệnh render duy nhất
 createRoot(document.getElementById("root")!).render(
   <BrowserRouter basename="/HRM-system">
     <App />
